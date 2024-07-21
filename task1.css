@@ -39,7 +39,7 @@ html {
 } 
 .main {
     margin: 2rem;
-    /* border: solid rgb(172, 164, 164) ; */
+    border: solid rgb(172, 164, 164) ;
     overflow-y: auto;
     width: 400px;
     height: 200px;
@@ -47,7 +47,8 @@ html {
 }
 .section__head {
     display: flex;
-    gap: 10%;
+    /* gap: 10%; */
+    justify-content: space-between;
     align-items: center;
    
     
@@ -64,6 +65,8 @@ background-color: var(--color-bg__number);
 }
 .section__head__part1ml {
   color: blue;
+  padding: 1rem;
+margin: 1rem;
 }
 .section__main {
   padding-right: 1rem;
@@ -81,10 +84,12 @@ img {
 }
 .foter {
   display: flex;
-  gap: 9%;
+  /* gap: 9%; */
     align-items: center;
+    justify-content: space-between;
     margin-top: 2rem;
-    padding-bottom: 1rem;
+    padding-left: 1rem;
+    
 }
 .section__foter {
   display: flex;
@@ -95,6 +100,7 @@ img {
 span {
   background-color: var(--color-bg__span);
   padding: 0.5rem;
+  
   /* overflow-y: auto; */
 }
 
